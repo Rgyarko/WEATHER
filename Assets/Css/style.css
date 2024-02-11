@@ -1,14 +1,14 @@
 .day{
     flex-direction: column;
-    color: white;
-    background: blue;
+    color: rgb(255, 255, 255);
+    background: rgb(51, 0, 255);
     border-radius: 10px;
     padding: 5px;
     margin: 5px;
 }
 main{
-    background-color: blue;
-    color: white
+    background-color: rgb(0, 255, 229);
+    color: rgb(255, 255, 255)
 }
 .btn{
     background-color: blue;

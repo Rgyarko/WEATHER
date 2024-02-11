@@ -131,9 +131,9 @@ function getCityWeather(userCity) {
 }
 
 function getForecast(userCity) {
-  var apiKey = "01b527455a926f9252fa11df79f092b5";
+  var apiKey = "e23d38a3be2ede685768bc94886e97e2";
   fetch(
-    "https://api.openweathermap.org/data/2.5/forecast?q=" +
+    "https://api.openweathermap.org/data/2.5/weather?=" +
       userCity +
       "&units=imperial&appid=" +
       apiKey
